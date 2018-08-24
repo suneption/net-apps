@@ -48,6 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Db\Model\DimProduct.cs" />
+    <Compile Include="Db\Model\FactProductInventory.cs" />
+    <Compile Include="Db\RootContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
